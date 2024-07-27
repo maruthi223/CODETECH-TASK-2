@@ -1,50 +1,93 @@
-Name:MACHERLA MARUTHI KALYAN REDDY
+**Name:** MACHERLA MARUTHI KALYAN REDDY
 
-Company: CODTECH IT SOLUTIONS
+**Company:** CODTECH IT SOLUTIONS
 
-ID: CT08DS3617
+**ID:** CT08DS3617
+**Domain:** Data Analytics
 
-Domain: Data Analytics
+**Duration:** July to August 2024
 
-Duration: July to August 2024
+## CODTECH-Task2
+# Predictive Modeling with Classification
 
-CODTECH-Task2
-PREDICTIVE MODELING WITH CLASSIFICATION
-Overview
-This project demonstrates the implementation of a simple linear regression model to predict continuous target variables. By using a synthetic dataset, the project showcases the process of training a linear regression model, evaluating its performance, and visualizing the results.
+This project involves building predictive models using classification algorithms on a labeled dataset. The goal is to preprocess the data, apply various classification techniques, and evaluate their performance using standard metrics.
 
-Objective
-The main objective of this project is to:
+## Table of Contents
+- [Dataset](#dataset)
+- [Data Preprocessing](#data-preprocessing)
+- [Modeling](#modeling)
+  - [Logistic Regression](#logistic-regression)
+  - [Decision Trees](#decision-trees)
+  - [Random Forests](#random-forests)
+  - [Support Vector Machines](#support-vector-machines)
+- [Evaluation Metrics](#evaluation-metrics)
+  - [Accuracy](#accuracy)
+  - [Precision, Recall, and F1-Score](#precision-recall-and-f1-score)
+- [Results](#results)
+- [Conclusion](#conclusion)
 
-Utilize a dataset with labeled data and apply classification algorithms to build predictive
-models. Preprocess the data, split it into training and testing sets, and explore various
-classification algorithms such as logistic regression, decision trees, random forests, or
-support vector machines. Evaluate the models using metrics like accuracy, precision,
-recall, and F1- score, and compare their performances to determine the most suitable
-algorithm for the given task
-Data Preparation:
+## Dataset
+Provide a brief description of the dataset used, including its source, features, and the target variable. Mention any necessary preprocessing steps taken to clean or transform the data.
 
-Creation of a synthetic dataset with feature X and target variable y.
-Data Splitting:
+## Data Preprocessing
+Detail the preprocessing steps such as:
+- Handling missing values
+- Encoding categorical variables
+- Scaling numerical features
+- Splitting the data into training and testing sets
 
-Splitting the dataset into training and testing sets.
-Model Training:
+## Modeling
+### Logistic Regression
+- **Description**: A linear model for binary classification.
+- **Implementation**: Include details about the library used and any specific parameters.
+- **Output Image**: ![Screenshot 2024-07-27 190131](https://github.com/user-attachments/assets/5a6a5354-104a-4e6a-8120-3df1a9115de1)
 
-Training a linear regression model using the training data.
-Model Evaluation:
+### Decision Trees
+- **Description**: A non-linear model that splits data based on feature values.
+- **Implementation**: Include details about the library used and any specific parameters.
+- **Output Image**: ![Screenshot 2024-07-27 190138](https://github.com/user-attachments/assets/5f647886-3016-4cf3-b013-362b6a0dfe96)
 
-Evaluating the model using Mean Squared Error (MSE) and R-squared metrics on both training and testing data.
-Visualization:
 
-Plotting the regression line to visualize the relationship between X and y.
-Visualizing actual vs. predicted values to assess the model's accuracy.
-Technologies Used
-Python: The primary programming language used for the implementation.
-Pandas: For data manipulation and analysis.
-NumPy: For numerical computations.
-Matplotlib: For data visualization.
-Scikit-learn: For implementing and evaluating the linear regression model.
-Key Insights
-The linear regression model helps in understanding the linear relationship between the feature X and the target variable y.
-The Mean Squared Error (MSE) and R-squared metrics provide a quantitative measure of the model's performance.
-Visualizing the regression line and the actual vs. predicted values gives a clear indication of how well the model fits the data.
+### Random Forests
+- **Description**: An ensemble method using multiple decision trees.
+- **Implementation**: Include details about the library used and any specific parameters.
+- **Output Image**: ![Screenshot 2024-07-27 190124](https://github.com/user-attachments/assets/b9e4657a-4b33-49b4-a80e-08e38499dca6)
+
+
+### Support Vector Machines
+- **Description**: A classifier that finds the optimal hyperplane for separating classes.
+- **Implementation**: Include details about the library used and any specific parameters.
+- **Output Image**: ![Screenshot 2024-07-27 190145](https://github.com/user-attachments/assets/0a0b2aab-d9eb-443c-9326-b2f58d47ca92)
+
+
+## Evaluation Metrics
+### Accuracy
+![Screenshot 2024-07-27 190153](https://github.com/user-attachments/assets/d700bf07-43a6-4ed5-9a32-6c87eb087741)
+
+
+### Precision, Recall, and F1-Score
+# Classification Metrics
+
+## 1. Precision
+The ratio of correctly predicted positive observations to the total predicted positives. Precision is a measure of how many of the predicted positive instances are actually positive.
+
+\[
+\text{Precision} = \frac{TP}{TP + FP}
+\]
+
+## 2. Recall (Sensitivity)
+The ratio of correctly predicted positive observations to all the observations in the actual class. Recall measures how many of the actual positive instances were correctly predicted by the model.
+
+\[
+\text{Recall} = \frac{TP}{TP + FN}
+\]
+
+## 3. F1-Score
+The harmonic mean of precision and recall. It is used to balance the trade-off between precision and recall, especially useful when you have an uneven class distribution.
+
+\[
+\text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+\]
+
+## Conclusion
+The most suitable algorithm for the given task is given by RANDOM FOREST CLASSIFIER with the accuracy 82.12
