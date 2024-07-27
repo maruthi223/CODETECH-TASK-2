@@ -66,23 +66,23 @@ Detail the preprocessing steps such as:
 
 
 ### Precision, Recall, and F1-Score
-# Classification Metrics
+### Classification Metrics
 
-## 1. Precision
+### 1. Precision
 The ratio of correctly predicted positive observations to the total predicted positives. Precision is a measure of how many of the predicted positive instances are actually positive.
 
 \[
 \text{Precision} = \frac{TP}{TP + FP}
 \]
 
-## 2. Recall (Sensitivity)
+### 2. Recall (Sensitivity)
 The ratio of correctly predicted positive observations to all the observations in the actual class. Recall measures how many of the actual positive instances were correctly predicted by the model.
 
 \[
 \text{Recall} = \frac{TP}{TP + FN}
 \]
 
-## 3. F1-Score
+### 3. F1-Score
 The harmonic mean of precision and recall. It is used to balance the trade-off between precision and recall, especially useful when you have an uneven class distribution.
 
 \[
